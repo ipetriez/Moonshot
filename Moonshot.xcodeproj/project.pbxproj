@@ -11,6 +11,8 @@
 		706EA10E2B94D80E00E076E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EA10D2B94D80E00E076E9 /* ContentView.swift */; };
 		706EA1102B94D80F00E076E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EA10F2B94D80F00E076E9 /* Assets.xcassets */; };
 		706EA1132B94D80F00E076E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EA1122B94D80F00E076E9 /* Preview Assets.xcassets */; };
+		706EA11B2B964DC500E076E9 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 706EA1192B964DC500E076E9 /* astronauts.json */; };
+		706EA11C2B964DC500E076E9 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 706EA11A2B964DC500E076E9 /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		706EA10D2B94D80E00E076E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		706EA10F2B94D80F00E076E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706EA1122B94D80F00E076E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		706EA1192B964DC500E076E9 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		706EA11A2B964DC500E076E9 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				706EA10B2B94D80E00E076E9 /* MoonshotApp.swift */,
 				706EA10D2B94D80E00E076E9 /* ContentView.swift */,
+				706EA1192B964DC500E076E9 /* astronauts.json */,
+				706EA11A2B964DC500E076E9 /* missions.json */,
 				706EA10F2B94D80F00E076E9 /* Assets.xcassets */,
 				706EA1112B94D80F00E076E9 /* Preview Content */,
 			);
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706EA11B2B964DC500E076E9 /* astronauts.json in Resources */,
 				706EA1132B94D80F00E076E9 /* Preview Assets.xcassets in Resources */,
+				706EA11C2B964DC500E076E9 /* missions.json in Resources */,
 				706EA1102B94D80F00E076E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
