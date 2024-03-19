@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70223D042BA8AE8D003226DF /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70223D032BA8AE8D003226DF /* MissionView.swift */; };
+		70223D062BA9F622003226DF /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70223D052BA9F622003226DF /* AstronautView.swift */; };
 		706EA10C2B94D80E00E076E9 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EA10B2B94D80E00E076E9 /* MoonshotApp.swift */; };
 		706EA10E2B94D80E00E076E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EA10D2B94D80E00E076E9 /* ContentView.swift */; };
 		706EA1102B94D80F00E076E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EA10F2B94D80F00E076E9 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		70223D032BA8AE8D003226DF /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		70223D052BA9F622003226DF /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		706EA1082B94D80E00E076E9 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706EA10B2B94D80E00E076E9 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		706EA10D2B94D80E00E076E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				706EA10B2B94D80E00E076E9 /* MoonshotApp.swift */,
 				706EA10D2B94D80E00E076E9 /* ContentView.swift */,
 				70223D032BA8AE8D003226DF /* MissionView.swift */,
+				70223D052BA9F622003226DF /* AstronautView.swift */,
 				706EA1262B9710E800E076E9 /* Models */,
 				706EA1252B9710DC00E076E9 /* Extensions */,
 				706EA1192B964DC500E076E9 /* astronauts.json */,
@@ -178,6 +181,7 @@
 			files = (
 				70223D042BA8AE8D003226DF /* MissionView.swift in Sources */,
 				706EA11E2B964F9700E076E9 /* Astronaut.swift in Sources */,
+				70223D062BA9F622003226DF /* AstronautView.swift in Sources */,
 				706EA1242B9710D300E076E9 /* Color-Theme.swift in Sources */,
 				706EA10E2B94D80E00E076E9 /* ContentView.swift in Sources */,
 				706EA10C2B94D80E00E076E9 /* MoonshotApp.swift in Sources */,
